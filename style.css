@@ -1,0 +1,83 @@
+/* bg00507A
+textAC2020
+boxAC2020 */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: #548999;
+text-align: center;
+}
+.container{
+    /* background-color: #AC2020; */
+height: 70vh;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.game{
+    /* border:2px solid black; */
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+
+.box{
+    height:18vmin;
+    width:18vmin;
+    background-color:#e5e5e5 ;
+    border:none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size:8vmin;
+    color: #AC2020;
+}
+
+.reset{
+    background-color: #232323;
+    color:#fff;
+    padding:0.6rem 1.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border:none;
+}
+
+.newgame{
+    background-color: #232323;
+    color:#fff;
+    padding:0.5rem 1.2rem;
+    border-radius: 0.8rem;
+    font-size: 0.8rem;
+    border:none;
+    margin:1rem 0;
+}
+
+.msg{
+    height:30vmin;
+    font-size: 3rem;
+    /* border:2px solid red; */
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    color: #fff;
+
+}
+.msg-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hide{
+    display:none;
+}
